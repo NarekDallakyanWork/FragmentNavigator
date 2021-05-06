@@ -1,8 +1,5 @@
 package com.example.navigator.navigator
 
-/**
- * Created by Gevorg Gevorgyan
- */
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -78,7 +75,7 @@ class NavigatorImpl constructor(
 
             if(currentScreen != null){
 
-                val currentScreenTag = currentScreen!!.fragmentClass.name
+                val currentScreenTag = currentScreen.fragmentClass.name
                 replaceFragments(currentScreenTag, fragment, bundle)
 
                 // if need remove current screen from history and back stack

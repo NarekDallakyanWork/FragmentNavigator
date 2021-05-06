@@ -1,9 +1,5 @@
 package com.example.navigator.navigator
 
-/**
- * Created by Gevorg Gevorgyan
- */
-
 import android.os.Bundle
 import androidx.annotation.IdRes
 import androidx.fragment.app.Fragment
